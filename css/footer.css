@@ -1,0 +1,26 @@
+footer  {
+    background: #b8b8b8;
+
+    display: flex;
+    align-items: flex-start;
+    
+    height: 50vh;
+
+    padding: 2vh 3vw 5vh 3vw;
+}
+
+footer div  {
+    background: #b0b0b0;
+    font-size: 2vw;
+
+    width: 100%;
+
+    padding: 2vw;
+    margin: 1vw;
+}
+
+footer h2   {
+    text-decoration: underline;
+
+    margin-bottom: 1.5vh;
+}

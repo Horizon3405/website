@@ -1,0 +1,72 @@
+@import url(nav.css);
+@import url(footer.css);
+@import url(education.css);
+
+*   {
+    width: auto;
+    height: auto;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    gap: 0;
+}
+
+
+body    {
+    background: #10a962;
+}
+
+
+header  {
+    background: url(../img/example_img.png) no-repeat, lime;
+    background-size: cover;
+    display: flex;
+
+    height: 100vh;
+}
+
+h1  {
+    background: rgba(123, 123, 123, 0.418);
+    color: #fff;
+
+    font-size: 3rem;
+    
+    position: absolute;
+    left: 3vw;
+    top: 10vh;
+
+    padding: 3vw;
+    border-radius: .2vh;
+}
+
+
+#news   {
+    background: #fff;
+
+    display: flex;
+    align-items: flex-start;
+    
+    height: 100vh;
+}
+
+.cards  {
+    background: rgb(198, 198, 198);
+
+    width: 30vw;
+
+    padding: 4vw;
+    margin: 5vw;
+}
+
+.cards h3   {
+    text-decoration:underline;
+    font-size:2rem;
+
+    margin-bottom: 4vh;
+}
+.cards img  {
+    float: right;
+    width: 45%;
+}
