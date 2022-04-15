@@ -3,24 +3,42 @@ footer  {
 
     display: flex;
     align-items: flex-start;
-    
-    height: 50vh;
 
-    padding: 2vh 3vw 5vh 3vw;
+    padding: 2vh 2vw 5vh 2vw;
 }
 
 footer div  {
-    background: #b0b0b0;
-    font-size: 2vw;
-
-    width: 100%;
+    font-size: 2.5rem;
 
     padding: 2vw;
-    margin: 1vw;
 }
 
 footer h2   {
     text-decoration: underline;
 
     margin-bottom: 1.5vh;
+}
+
+
+footer img {
+    height: 2rem;
+}
+
+/* To  make icons go in same line as text */
+footer li *   {
+    display: inline;
+}
+
+
+@media screen and (orientation: portrait) {
+
+    footer div  {
+        font-size: 3.78vw;
+    
+        padding: 2vw;
+    }
+
+    footer img  {
+        height: 3.7vw;
+    }
 }

@@ -2,6 +2,8 @@
     background: rgb(94, 94, 94);
 
     min-height: 100vh;
+
+    padding: 2vh 0;
 }
 
 #education div  {
