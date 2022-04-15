@@ -3,7 +3,7 @@
     height: auto;
 
     position: fixed;
-    left: 2vw;
+    left: 1vw;
     bottom: 2vw;
 }
 
@@ -37,8 +37,8 @@
 
     float: left;
 
-    width: 2rem;
-    height: 2rem;
+    width: 3vw;
+    height: 3vw;
 
     border-radius: 100px;
 
