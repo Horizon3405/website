@@ -3,8 +3,9 @@ footer  {
 
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
 
-    padding: 2vh 2vw 5vh 2vw;
+    padding: 2vh 5vw 5vh 5vw;
 }
 
 footer div  {
@@ -32,13 +33,17 @@ footer li *   {
 
 @media screen and (orientation: portrait) {
 
+    footer  {
+        justify-content: center;
+    }
+
     footer div  {
-        font-size: 3.78vw;
+        font-size: 3.5vw;
     
         padding: 2vw;
     }
 
     footer img  {
-        height: 3.7vw;
+        height: 3.5vw;
     }
 }

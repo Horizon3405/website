@@ -1,6 +1,7 @@
 @import url(nav.css);
 @import url(ideal.css);
 @import url(education.css);
+@import url(certificates.css);
 @import url(footer.css);
 
 *   {
@@ -21,9 +22,13 @@ body    {
     background: #10a962;
 }
 
+body > *    {
+    min-height: 100vh;
+}
+
 
 header  {
-    background: url(../img/20210701_184204.jpg) no-repeat center, #ff00e1;
+    background: url(../img/20210701_184204.jpg) no-repeat center, #fff;
     background-size: cover;
     display: flex;
 
